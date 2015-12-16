@@ -1,0 +1,212 @@
+/*  ===================
+    1. IMPORTS & FONTS
+    ===================  */
+@import url('http://mywebfont.appspot.com/css?font=zawgyi');
+@import url('http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic-ext, cyrillic');
+
+@charset "UTF-8";
+
+
+#top * {
+	margin: 45px 0 0 10px;
+	border: 0;
+	outline: 0;
+	color: #ffffff;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 20px;
+	font-family: 'PT Sans', sans-serif; 
+	/*vertical-align: baseline;*/
+	text-align: center;
+	line-height: normal;
+  	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+
+}
+#top label {
+	cursor: pointer;
+}
+#top input[type="radio"],
+#top input[type="checkbox"],
+input#hide-header,
+input#show-header {
+	display: none;
+	visibility: hidden;
+	opacity: 0;
+	z-index: -1;
+}
+#top a {
+	text-decoration: none;
+}
+#top ul li {
+	list-style: none;
+}
+#top {
+	width: 100%; /* Note: Adjust this value to change the width of the footer */
+	height: 90px;
+	background: #3F51B5; /* Note: Change this HEX value if you want different footer background */
+	position: fixed;
+	top: 0;
+	bottom: auto;
+	left: 0;
+	right: 0;
+	z-index: 99999; /* Keep the footer above all other elements on the page */
+}
+
+/*  ==================
+    3. GRID LAYOUT
+    ==================  */
+
+#top .row {
+	display: block;
+	float: left;
+	width: 100%;
+	clear: both;
+}
+#top .fluid,
+#top .fixed {
+	display: inline-block;
+	float: left;
+	position: relative;
+}
+
+/*  ==================
+    BUTTON
+    ==================  */
+
+.button {
+  font-family: 'PT Sans', sans-serif;
+  text-shadow: 2px 2px 1px #a31a1a;
+  color: #ffffff;
+  background: #E91E63;
+  padding: 10px 15px 10px 15px;
+  text-decoration: none;
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+}
+
+.button:hover {
+  background: #cc4437;
+  text-decoration: none;
+}
+
+
+
+
+/*  ==================
+    4. MAIN STYLES
+    ==================  */
+
+#top .footer-inner {
+	width: 100%; /* Note: This is initial inner footer width. You can change it to fit your layout. For example, if your website uses 960 grid, change this value to 960px */
+	margin: 0 auto;
+	padding: 22px 30px;
+	height: 70px;
+}
+
+/*END OF TOP*/
+
+/*  ==================
+    2. ITEM RESET
+    ==================  */
+
+#stickit * {
+	margin: 18px 0 0 10px;
+	border: 0;
+	outline: 0;
+	color: #ffffff;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 20px;
+	font-family: 'PT Sans', sans-serif; /* Note: Edit this if you want to match the font with your template design. IF you change it to your font, don't forget to delete the @import above */
+	/*vertical-align: baseline;*/
+	text-align: center;
+	line-height: normal;
+  	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+
+}
+#stickit label {
+	cursor: pointer;
+}
+#stickit input[type="radio"],
+#stickit input[type="checkbox"],
+input#hide-footer,
+input#show-footer {
+	display: none;
+	visibility: hidden;
+	opacity: 0;
+	z-index: -1;
+}
+#stickit a {
+	text-decoration: none;
+}
+#stickit ul li {
+	list-style: none;
+}
+#stickit {
+	width: 100%; /* Note: Adjust this value to change the width of the footer */
+	height: 60px;
+	background: #3F51B5; /* Note: Change this HEX value if you want different footer background */
+	position: fixed;
+	top: auto;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 99999; /* Keep the footer above all other elements on the page */
+}
+
+/*  ==================
+    3. GRID LAYOUT
+    ==================  */
+
+#stickit .row {
+	display: block;
+	float: left;
+	width: 100%;
+	clear: both;
+}
+#stickit .fluid,
+#stickit .fixed {
+	display: inline-block;
+	float: left;
+	position: relative;
+}
+
+/*  ==================
+    BUTTON
+    ==================  */
+
+.button {
+  font-family: 'PT Sans', sans-serif;
+  text-shadow: 2px 2px 1px #a31a1a;
+  color: #ffffff;
+  background: #E91E63;
+  padding: 10px 15px 10px 15px;
+  text-decoration: none;
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+}
+
+.button:hover {
+  background: #cc4437;
+  text-decoration: none;
+}
+
+
+
+
+/*  ==================
+    4. MAIN STYLES
+    ==================  */
+
+#stickit .footer-inner {
+	width: 100%; /* Note: This is initial inner footer width. You can change it to fit your layout. For example, if your website uses 960 grid, change this value to 960px */
+	margin: 0 auto;
+	padding: 22px 30px;
+	height: 50px;
+}
